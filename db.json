@@ -1,0 +1,75 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "email": "json@server.com",
+      "password": "acAC13#",
+      "username": "Json Server API"
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "name": "Milk",
+      "store": 20,
+      "unit": [
+        {
+          "code": "lt",
+          "quantity": "1"
+        }
+      ],
+      "price": [
+        {
+          "currency": "MXN",
+          "amount": 30
+        },
+        {
+          "currency": "USD",
+          "amount": 1.76
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Eggs",
+      "store": 13,
+      "unit": [
+        {
+          "code": "unit",
+          "quantity": "30"
+        }
+      ],
+      "price": [
+        {
+          "currency": "MXN",
+          "amount": 80
+        },
+        {
+          "currency": "USD",
+          "amount": 4.76
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Jam",
+      "store": 1000,
+      "unit": [
+        {
+          "code": "grams",
+          "quantity": "250"
+        }
+      ],
+      "price": [
+        {
+          "currency": "MXN",
+          "amount": 80
+        },
+        {
+          "currency": "USD",
+          "amount": 4.76
+        }
+      ]
+    }
+  ]
+}
